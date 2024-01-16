@@ -5,6 +5,8 @@ import Heading from "../components/Heading.astro"
 import Hero from "../components/Hero.astro"
 import Navbar from "../components/Navbar.jsx"
 import BrandSlider from "../components/Slider" 
+import { ViewTransitions } from 'astro:transitions';
+
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +16,7 @@ import BrandSlider from "../components/Slider"
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <ViewTransitions />
   </head>
   <body>
     <div>
